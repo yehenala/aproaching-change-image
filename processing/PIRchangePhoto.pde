@@ -1,3 +1,4 @@
+···
 import processing.serial.*;
 Serial myPort;
 int numphotos=2;//设置图片总数
@@ -31,3 +32,4 @@ void draw(){
     image(photos[1],width/8,0,width*3/4,height);
   }
 }
+···
